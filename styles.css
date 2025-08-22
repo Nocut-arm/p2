@@ -517,17 +517,26 @@ main {
 /* Category navigation */
 .category-nav {
     background: #ffffff;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid #e5e7eb;
     position: sticky;
     top: 80px;
     z-index: 100;
 }
 
+/* Mobile category navigation */
+@media (max-width: 768px) {
+    .category-nav {
+        position: relative;
+        top: auto;
+        z-index: 50;
+    }
+}
+
 .category-tabs {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
 }
 
@@ -535,7 +544,7 @@ main {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0.75rem 1.5rem;
     background: #f8fafc;
     color: #6b7280;
     text-decoration: none;
@@ -543,6 +552,7 @@ main {
     transition: all 0.3s ease;
     font-weight: 500;
     border: 1px solid #e5e7eb;
+    font-size: 0.9rem;
 }
 
 .category-tab:hover,
@@ -781,12 +791,13 @@ footer {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: #1e3c72;
+        background-color: #ffffff;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
         padding: 2rem 0;
+        border-top: 1px solid #e5e7eb;
     }
     
     .nav-menu.active {
@@ -816,15 +827,24 @@ footer {
         font-size: 6rem;
     }
     
+    .category-nav {
+        padding: 0.5rem 0;
+        position: relative;
+        top: auto;
+    }
+    
     .category-tabs {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        gap: 0.25rem;
+        padding: 0 1rem;
     }
     
     .category-tab {
-        width: 100%;
-        max-width: 300px;
-        justify-content: center;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        min-width: auto;
+        flex: 1;
+        max-width: none;
     }
     
     .vehicle-gallery {
@@ -862,5 +882,19 @@ footer {
     
     .directions-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .category-nav {
+        padding: 0.25rem 0;
+    }
+    
+    .category-tabs {
+        gap: 0.125rem;
+        padding: 0 0.5rem;
+    }
+    
+    .category-tab {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
     }
 }
