@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #ffffff;
+    background-color: #0a0a0a;
 }
 
 .container {
@@ -20,13 +20,13 @@ body {
 
 /* Navigation */
 .navbar {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
     padding: 1rem 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 20px rgba(255, 215, 0, 0.2);
 }
 
 .navbar .container {
@@ -47,7 +47,7 @@ body {
 .nav-brand i {
     margin-right: 0.5rem;
     font-size: 2rem;
-    color: #ffd700;
+    color: #00d4ff;
 }
 
 .nav-menu {
@@ -66,7 +66,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #ffd700;
+    color: #00d4ff;
 }
 
 .nav-link.active::after {
@@ -76,7 +76,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #ffd700;
+    background-color: #00d4ff;
 }
 
 .hamburger {
@@ -100,7 +100,7 @@ main {
 
 /* Hero section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
     color: white;
     padding: 4rem 0;
     display: flex;
@@ -144,13 +144,13 @@ main {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #ffd700, #ffed4e);
-    color: #333;
+    background: linear-gradient(45deg, #00d4ff, #0099cc);
+    color: #ffffff;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 212, 255, 0.4);
 }
 
 .btn-secondary {
@@ -185,14 +185,14 @@ main {
 /* Features section */
 .features {
     padding: 5rem 0;
-    background: white;
+    background: #1a1a1a;
 }
 
 .features h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .features-grid {
@@ -205,9 +205,10 @@ main {
     text-align: center;
     padding: 2rem;
     border-radius: 15px;
-    background: white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background: #2d2d2d;
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #404040;
 }
 
 .feature-card:hover {
@@ -217,32 +218,32 @@ main {
 
 .feature-card i {
     font-size: 3rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-bottom: 1rem;
 }
 
 .feature-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .feature-card p {
-    color: #666;
+    color: #cccccc;
     line-height: 1.6;
 }
 
 /* Categories preview */
 .categories-preview {
     padding: 5rem 0;
-    background: #f8f9fa;
+    background: #0a0a0a;
 }
 
 .categories-preview h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .categories-grid {
@@ -252,13 +253,14 @@ main {
 }
 
 .category-card {
-    background: white;
+    background: #2d2d2d;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
     transition: all 0.3s ease;
     cursor: pointer;
+    border: 1px solid #404040;
 }
 
 .category-card:hover {
@@ -268,23 +270,23 @@ main {
 
 .category-card i {
     font-size: 3rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-bottom: 1rem;
 }
 
 .category-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .category-card p {
-    color: #666;
+    color: #cccccc;
 }
 
 /* Page header */
 .page-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -303,7 +305,7 @@ main {
 /* About content */
 .about-content {
     padding: 5rem 0;
-    background: white;
+    background: #1a1a1a;
 }
 
 .about-grid {
@@ -316,19 +318,19 @@ main {
 .about-text h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .about-text p {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
-    color: #666;
+    color: #cccccc;
     line-height: 1.8;
 }
 
 .showroom-preview {
     font-size: 10rem;
-    color: #667eea;
+    color: #00d4ff;
     text-align: center;
     opacity: 0.3;
 }
@@ -336,14 +338,14 @@ main {
 /* Services */
 .services {
     padding: 5rem 0;
-    background: #f8f9fa;
+    background: #0a0a0a;
 }
 
 .services h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .services-grid {
@@ -353,11 +355,12 @@ main {
 }
 
 .service-card {
-    background: white;
+    background: #2d2d2d;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
     transition: transform 0.3s ease;
+    border: 1px solid #404040;
 }
 
 .service-card:hover {
@@ -366,32 +369,32 @@ main {
 
 .service-card i {
     font-size: 2.5rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-bottom: 1rem;
 }
 
 .service-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .service-card p {
-    color: #666;
+    color: #cccccc;
     line-height: 1.6;
 }
 
 /* Contact info */
 .contact-info {
     padding: 5rem 0;
-    background: white;
+    background: #1a1a1a;
 }
 
 .contact-info h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .contact-grid {
@@ -404,8 +407,9 @@ main {
     text-align: center;
     padding: 2rem;
     border-radius: 15px;
-    background: #f8f9fa;
+    background: #2d2d2d;
     transition: transform 0.3s ease;
+    border: 1px solid #404040;
 }
 
 .contact-card:hover {
@@ -414,32 +418,32 @@ main {
 
 .contact-card i {
     font-size: 2.5rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-bottom: 1rem;
 }
 
 .contact-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .contact-card p {
-    color: #666;
+    color: #cccccc;
     line-height: 1.6;
 }
 
 /* Location */
 .location {
     padding: 5rem 0;
-    background: #f8f9fa;
+    background: #0a0a0a;
 }
 
 .location h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .map-container {
@@ -447,28 +451,29 @@ main {
 }
 
 .map-placeholder {
-    background: white;
+    background: #2d2d2d;
     padding: 3rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    border: 1px solid #404040;
 }
 
 .map-placeholder i {
     font-size: 4rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-bottom: 1rem;
 }
 
 .map-placeholder p {
-    color: #666;
+    color: #cccccc;
     margin-bottom: 1rem;
 }
 
 .directions h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -482,34 +487,35 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    background: white;
+    background: #2d2d2d;
     padding: 1.5rem;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    border: 1px solid #404040;
 }
 
 .direction-item i {
     font-size: 2rem;
-    color: #667eea;
+    color: #00d4ff;
     margin-top: 0.5rem;
 }
 
 .direction-item h4 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .direction-item p {
-    color: #666;
+    color: #cccccc;
     line-height: 1.6;
 }
 
 /* Category navigation */
 .category-nav {
-    background: white;
+    background: #1a1a1a;
     padding: 2rem 0;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #404040;
     position: sticky;
     top: 80px;
     z-index: 100;
@@ -527,18 +533,19 @@ main {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: #f8f9fa;
-    color: #666;
+    background: #2d2d2d;
+    color: #cccccc;
     text-decoration: none;
     border-radius: 50px;
     transition: all 0.3s ease;
     font-weight: 500;
+    border: 1px solid #404040;
 }
 
 .category-tab:hover,
 .category-tab.active {
-    background: #667eea;
-    color: white;
+    background: #00d4ff;
+    color: #0a0a0a;
     transform: translateY(-2px);
 }
 
@@ -550,7 +557,7 @@ main {
 .vehicle-category {
     display: none;
     padding: 3rem 0;
-    background: white;
+    background: #1a1a1a;
 }
 
 .vehicle-category.active {
@@ -560,14 +567,14 @@ main {
 .vehicle-category h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #ffffff;
     text-align: center;
 }
 
 .category-description {
     text-align: center;
     font-size: 1.2rem;
-    color: #666;
+    color: #cccccc;
     margin-bottom: 3rem;
 }
 
@@ -578,12 +585,13 @@ main {
 }
 
 .vehicle-item {
-    background: white;
+    background: #2d2d2d;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    border: 1px solid #404040;
 }
 
 .vehicle-item:hover {
@@ -637,11 +645,11 @@ main {
 .vehicle-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .vehicle-info p {
-    color: #666;
+    color: #cccccc;
     line-height: 1.6;
 }
 
@@ -708,9 +716,10 @@ main {
 
 /* Footer */
 footer {
-    background: #1e3c72;
+    background: #0a0a0a;
     color: white;
     padding: 3rem 0 1rem;
+    border-top: 1px solid #404040;
 }
 
 .footer-content {
@@ -723,7 +732,7 @@ footer {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #ffd700;
+    color: #00d4ff;
 }
 
 .footer-section p {
@@ -748,7 +757,7 @@ footer {
 
 .footer-section ul li a:hover {
     opacity: 1;
-    color: #ffd700;
+    color: #00d4ff;
 }
 
 .footer-bottom {

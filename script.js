@@ -127,10 +127,10 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 100) {
-            navbar.style.background = 'rgba(30, 60, 114, 0.95)';
+            navbar.style.background = 'rgba(10, 10, 10, 0.95)';
             navbar.style.backdropFilter = 'blur(10px)';
         } else {
-            navbar.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)';
+            navbar.style.background = 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)';
             navbar.style.backdropFilter = 'none';
         }
     });
