@@ -519,18 +519,8 @@ main {
     background: #ffffff;
     padding: 1rem 0;
     border-bottom: 1px solid #e5e7eb;
-    position: sticky;
-    top: 80px;
-    z-index: 100;
-}
-
-/* Mobile category navigation */
-@media (max-width: 768px) {
-    .category-nav {
-        position: relative;
-        top: auto;
-        z-index: 50;
-    }
+    position: relative;
+    z-index: 50;
 }
 
 .category-tabs {
@@ -829,8 +819,6 @@ footer {
     
     .category-nav {
         padding: 0.5rem 0;
-        position: relative;
-        top: auto;
     }
     
     .category-tabs {
