@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - Premium Auto Showroom</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-car"></i>
+                <span>Premium Auto</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="collections.html" class="nav-link active">Collections</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Vehicle Collections</h1>
+                <p>Explore our diverse range of premium vehicles</p>
+            </div>
+        </section>
+
+        <section class="category-nav">
+            <div class="container">
+                <div class="category-tabs">
+                    <a href="#hatchbacks" class="category-tab active" data-category="hatchbacks">
+                        <i class="fas fa-car"></i>
+                        Hatchbacks
+                    </a>
+                    <a href="#suvs" class="category-tab" data-category="suvs">
+                        <i class="fas fa-truck"></i>
+                        SUVs
+                    </a>
+                    <a href="#sedans" class="category-tab" data-category="sedans">
+                        <i class="fas fa-car-side"></i>
+                        Sedans
+                    </a>
+                    <a href="#luxury" class="category-tab" data-category="luxury">
+                        <i class="fas fa-crown"></i>
+                        Luxury
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="hatchbacks" class="vehicle-category active">
+            <div class="container">
+                <h2>Hatchbacks</h2>
+                <p class="category-description">Compact, efficient, and perfect for city driving</p>
+                <div class="vehicle-gallery">
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=300&h=200&fit=crop" alt="Compact Hatchback">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Compact Hatchback</h3>
+                            <p>Efficient and stylish city car</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="video" data-src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=300&h=200&fit=crop" alt="Sport Hatchback">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Sport Hatchback</h3>
+                            <p>Performance meets practicality</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=300&h=200&fit=crop" alt="Electric Hatchback">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Electric Hatchback</h3>
+                            <p>Zero emissions, maximum efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="suvs" class="vehicle-category">
+            <div class="container">
+                <h2>SUVs</h2>
+                <p class="category-description">Spacious, versatile, and ready for any adventure</p>
+                <div class="vehicle-gallery">
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=200&fit=crop" alt="Compact SUV">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Compact SUV</h3>
+                            <p>Perfect balance of size and capability</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="video" data-src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300&h=200&fit=crop" alt="Mid-size SUV">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Mid-size SUV</h3>
+                            <p>Family-friendly with premium features</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=200&fit=crop" alt="Full-size SUV">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Full-size SUV</h3>
+                            <p>Maximum space and luxury</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sedans" class="vehicle-category">
+            <div class="container">
+                <h2>Sedans</h2>
+                <p class="category-description">Elegant, comfortable, and sophisticated driving experience</p>
+                <div class="vehicle-gallery">
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=300&h=200&fit=crop" alt="Compact Sedan">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Compact Sedan</h3>
+                            <p>Efficient luxury for daily commuting</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="video" data-src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=300&h=200&fit=crop" alt="Mid-size Sedan">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Mid-size Sedan</h3>
+                            <p>Perfect blend of comfort and performance</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=300&h=200&fit=crop" alt="Full-size Sedan">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Full-size Sedan</h3>
+                            <p>Ultimate luxury and comfort</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="luxury" class="vehicle-category">
+            <div class="container">
+                <h2>Luxury Vehicles</h2>
+                <p class="category-description">Exclusive, premium, and extraordinary driving experiences</p>
+                <div class="vehicle-gallery">
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300&h=200&fit=crop" alt="Luxury Sedan">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Luxury Sedan</h3>
+                            <p>Unparalleled elegance and sophistication</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="video" data-src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=200&fit=crop" alt="Luxury SUV">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Luxury SUV</h3>
+                            <p>Premium capability meets luxury</p>
+                        </div>
+                    </div>
+                    <div class="vehicle-item" data-type="image" data-src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop">
+                        <div class="vehicle-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300&h=200&fit=crop" alt="Sports Car">
+                            <div class="vehicle-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="vehicle-info">
+                            <h3>Sports Car</h3>
+                            <p>Performance and precision engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for displaying images and videos -->
+    <div id="vehicleModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div id="modalImage" class="modal-image" style="display: none;">
+                    <img id="modalImg" src="" alt="Vehicle Image">
+                </div>
+                <div id="modalVideo" class="modal-video" style="display: none;">
+                    <video id="modalVid" controls>
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Premium Auto Showroom</h3>
+                    <p>Your trusted partner in automotive excellence</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@premiumauto.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Premium Auto Showroom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
