@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #ffffff;
-    background-color: #0a0a0a;
+    color: #1a1a1a;
+    background-color: #ffffff;
 }
 
 .container {
@@ -20,13 +20,14 @@ body {
 
 /* Navigation */
 .navbar {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    background: #ffffff;
     padding: 1rem 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 20px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #e5e7eb;
 }
 
 .navbar .container {
@@ -38,7 +39,7 @@ body {
 .nav-brand {
     display: flex;
     align-items: center;
-    color: white;
+    color: #1a1a1a;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
@@ -47,7 +48,7 @@ body {
 .nav-brand i {
     margin-right: 0.5rem;
     font-size: 2rem;
-    color: #00d4ff;
+    color: #10b981;
 }
 
 .nav-menu {
@@ -57,7 +58,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: #6b7280;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -66,7 +67,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #00d4ff;
+    color: #10b981;
 }
 
 .nav-link.active::after {
@@ -76,7 +77,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #00d4ff;
+    background-color: #10b981;
 }
 
 .hamburger {
@@ -88,7 +89,7 @@ body {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #1a1a1a;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -100,8 +101,8 @@ main {
 
 /* Hero section */
 .hero {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
-    color: white;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+    color: #1a1a1a;
     padding: 4rem 0;
     display: flex;
     align-items: center;
@@ -144,24 +145,26 @@ main {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #00d4ff, #0099cc);
+    background: #10b981;
     color: #ffffff;
+    border: none;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 212, 255, 0.4);
+    box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+    background: #059669;
 }
 
 .btn-secondary {
     background: transparent;
-    color: white;
-    border: 2px solid white;
+    color: #10b981;
+    border: 2px solid #10b981;
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #333;
+    background: #10b981;
+    color: #ffffff;
 }
 
 .hero-image {
@@ -173,7 +176,7 @@ main {
 
 .car-showcase {
     font-size: 15rem;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(16, 185, 129, 0.2);
     animation: float 6s ease-in-out infinite;
 }
 
@@ -185,14 +188,14 @@ main {
 /* Features section */
 .features {
     padding: 5rem 0;
-    background: #1a1a1a;
+    background: #ffffff;
 }
 
 .features h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .features-grid {
@@ -205,10 +208,10 @@ main {
     text-align: center;
     padding: 2rem;
     border-radius: 15px;
-    background: #2d2d2d;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .feature-card:hover {
@@ -218,32 +221,32 @@ main {
 
 .feature-card i {
     font-size: 3rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-bottom: 1rem;
 }
 
 .feature-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .feature-card p {
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.6;
 }
 
 /* Categories preview */
 .categories-preview {
     padding: 5rem 0;
-    background: #0a0a0a;
+    background: #f8fafc;
 }
 
 .categories-preview h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .categories-grid {
@@ -253,14 +256,14 @@ main {
 }
 
 .category-card {
-    background: #2d2d2d;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .category-card:hover {
@@ -270,24 +273,24 @@ main {
 
 .category-card i {
     font-size: 3rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-bottom: 1rem;
 }
 
 .category-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .category-card p {
-    color: #cccccc;
+    color: #6b7280;
 }
 
 /* Page header */
 .page-header {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2d2d2d 100%);
-    color: white;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+    color: #1a1a1a;
     padding: 4rem 0;
     text-align: center;
 }
@@ -305,7 +308,7 @@ main {
 /* About content */
 .about-content {
     padding: 5rem 0;
-    background: #1a1a1a;
+    background: #ffffff;
 }
 
 .about-grid {
@@ -318,19 +321,19 @@ main {
 .about-text h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .about-text p {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.8;
 }
 
 .showroom-preview {
     font-size: 10rem;
-    color: #00d4ff;
+    color: #10b981;
     text-align: center;
     opacity: 0.3;
 }
@@ -338,14 +341,14 @@ main {
 /* Services */
 .services {
     padding: 5rem 0;
-    background: #0a0a0a;
+    background: #f8fafc;
 }
 
 .services h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .services-grid {
@@ -355,12 +358,12 @@ main {
 }
 
 .service-card {
-    background: #2d2d2d;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .service-card:hover {
@@ -369,32 +372,32 @@ main {
 
 .service-card i {
     font-size: 2.5rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-bottom: 1rem;
 }
 
 .service-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .service-card p {
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.6;
 }
 
 /* Contact info */
 .contact-info {
     padding: 5rem 0;
-    background: #1a1a1a;
+    background: #ffffff;
 }
 
 .contact-info h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .contact-grid {
@@ -407,9 +410,9 @@ main {
     text-align: center;
     padding: 2rem;
     border-radius: 15px;
-    background: #2d2d2d;
+    background: #ffffff;
     transition: transform 0.3s ease;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .contact-card:hover {
@@ -418,32 +421,32 @@ main {
 
 .contact-card i {
     font-size: 2.5rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-bottom: 1rem;
 }
 
 .contact-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .contact-card p {
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.6;
 }
 
 /* Location */
 .location {
     padding: 5rem 0;
-    background: #0a0a0a;
+    background: #f8fafc;
 }
 
 .location h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .map-container {
@@ -451,29 +454,29 @@ main {
 }
 
 .map-placeholder {
-    background: #2d2d2d;
+    background: #ffffff;
     padding: 3rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
-    border: 1px solid #404040;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
 }
 
 .map-placeholder i {
     font-size: 4rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-bottom: 1rem;
 }
 
 .map-placeholder p {
-    color: #cccccc;
+    color: #6b7280;
     margin-bottom: 1rem;
 }
 
 .directions h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #ffffff;
+    color: #1a1a1a;
     text-align: center;
 }
 
@@ -487,35 +490,35 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    background: #2d2d2d;
+    background: #ffffff;
     padding: 1.5rem;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
-    border: 1px solid #404040;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid #e5e7eb;
 }
 
 .direction-item i {
     font-size: 2rem;
-    color: #00d4ff;
+    color: #10b981;
     margin-top: 0.5rem;
 }
 
 .direction-item h4 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .direction-item p {
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.6;
 }
 
 /* Category navigation */
 .category-nav {
-    background: #1a1a1a;
+    background: #ffffff;
     padding: 2rem 0;
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid #e5e7eb;
     position: sticky;
     top: 80px;
     z-index: 100;
@@ -533,19 +536,19 @@ main {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: #2d2d2d;
-    color: #cccccc;
+    background: #f8fafc;
+    color: #6b7280;
     text-decoration: none;
     border-radius: 50px;
     transition: all 0.3s ease;
     font-weight: 500;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .category-tab:hover,
 .category-tab.active {
-    background: #00d4ff;
-    color: #0a0a0a;
+    background: #10b981;
+    color: #ffffff;
     transform: translateY(-2px);
 }
 
@@ -557,7 +560,7 @@ main {
 .vehicle-category {
     display: none;
     padding: 3rem 0;
-    background: #1a1a1a;
+    background: #ffffff;
 }
 
 .vehicle-category.active {
@@ -567,14 +570,14 @@ main {
 .vehicle-category h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #1a1a1a;
     text-align: center;
 }
 
 .category-description {
     text-align: center;
     font-size: 1.2rem;
-    color: #cccccc;
+    color: #6b7280;
     margin-bottom: 3rem;
 }
 
@@ -585,13 +588,13 @@ main {
 }
 
 .vehicle-item {
-    background: #2d2d2d;
+    background: #ffffff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    border: 1px solid #404040;
+    border: 1px solid #e5e7eb;
 }
 
 .vehicle-item:hover {
@@ -645,11 +648,11 @@ main {
 .vehicle-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 .vehicle-info p {
-    color: #cccccc;
+    color: #6b7280;
     line-height: 1.6;
 }
 
@@ -716,10 +719,10 @@ main {
 
 /* Footer */
 footer {
-    background: #0a0a0a;
+    background: #1a1a1a;
     color: white;
     padding: 3rem 0 1rem;
-    border-top: 1px solid #404040;
+    border-top: 1px solid #e5e7eb;
 }
 
 .footer-content {
@@ -732,7 +735,7 @@ footer {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #00d4ff;
+    color: #10b981;
 }
 
 .footer-section p {
@@ -757,7 +760,7 @@ footer {
 
 .footer-section ul li a:hover {
     opacity: 1;
-    color: #00d4ff;
+    color: #10b981;
 }
 
 .footer-bottom {
