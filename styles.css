@@ -48,7 +48,7 @@ body {
 .nav-brand i {
     margin-right: 0.5rem;
     font-size: 2rem;
-    color: #f472b6;
+    color: #f9a8d4;
 }
 
 .brand-logo {
@@ -56,15 +56,15 @@ body {
     height: 40px;
     border-radius: 8px;
     object-fit: cover;
-    border: 2px solid #f472b6;
+    border: 2px solid #f9a8d4;
     transition: all 0.3s ease;
     margin-right: 0.5rem;
 }
 
 .brand-logo:hover {
     transform: scale(1.1);
-    border-color: #ec4899;
-    box-shadow: 0 4px 12px rgba(244, 114, 182, 0.3);
+    border-color: #f472b6;
+    box-shadow: 0 4px 12px rgba(249, 168, 212, 0.3);
 }
 
 .nav-menu {
@@ -83,7 +83,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #f472b6;
+    color: #f9a8d4;
 }
 
 .nav-link.active::after {
@@ -93,7 +93,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #f472b6;
+    background-color: #f9a8d4;
 }
 
 .hamburger {
@@ -161,25 +161,25 @@ main {
 }
 
 .btn-primary {
-    background: #f472b6;
+    background: #f9a8d4;
     color: #ffffff;
     border: none;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(244, 114, 182, 0.3);
-    background: #ec4899;
+    box-shadow: 0 10px 20px rgba(249, 168, 212, 0.3);
+    background: #f472b6;
 }
 
 .btn-secondary {
     background: transparent;
-    color: #f472b6;
-    border: 2px solid #f472b6;
+    color: #f9a8d4;
+    border: 2px solid #f9a8d4;
 }
 
 .btn-secondary:hover {
-    background: #f472b6;
+    background: #f9a8d4;
     color: #ffffff;
 }
 
@@ -192,7 +192,7 @@ main {
 
 .car-showcase {
     font-size: 15rem;
-    color: rgba(244, 114, 182, 0.2);
+    color: rgba(249, 168, 212, 0.2);
     animation: float 6s ease-in-out infinite;
 }
 
@@ -237,7 +237,7 @@ main {
 
 .feature-card i {
     font-size: 3rem;
-    color: #f472b6;
+    color: #f9a8d4;
     margin-bottom: 1rem;
 }
 
@@ -289,7 +289,7 @@ main {
 
 .category-card i {
     font-size: 3rem;
-    color: #f472b6;
+    color: #f9a8d4;
     margin-bottom: 1rem;
 }
 
@@ -400,7 +400,7 @@ main {
 
 .service-card i {
     font-size: 2.5rem;
-    color: #f472b6;
+    color: #f9a8d4;
     margin-bottom: 1rem;
 }
 
@@ -449,7 +449,7 @@ main {
 
 .contact-card i {
     font-size: 2.5rem;
-    color: #f472b6;
+    color: #f9a8d4;
     margin-bottom: 1rem;
 }
 
@@ -492,7 +492,7 @@ main {
 
 .map-placeholder i {
     font-size: 4rem;
-    color: #f472b6;
+    color: #f9a8d4;
     margin-bottom: 1rem;
 }
 
@@ -512,7 +512,7 @@ main {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: #f472b6;
+    background: #f9a8d4;
     color: white;
     text-decoration: none;
     padding: 1rem 2rem;
@@ -523,9 +523,9 @@ main {
 }
 
 .map-link:hover {
-    background: #ec4899;
+    background: #f472b6;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(244, 114, 182, 0.3);
+    box-shadow: 0 5px 15px rgba(249, 168, 212, 0.3);
 }
 
 .map-link i {
@@ -568,7 +568,7 @@ main {
 
 .category-tab:hover,
 .category-tab.active {
-    background: #f472b6;
+    background: #f9a8d4;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -756,7 +756,7 @@ footer {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #f472b6;
+    color: #f9a8d4;
 }
 
 .footer-section p {
@@ -781,7 +781,7 @@ footer {
 
 .footer-section ul li a:hover {
     opacity: 1;
-    color: #f472b6;
+    color: #f9a8d4;
 }
 
 .footer-bottom {
