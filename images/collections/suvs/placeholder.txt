@@ -1,0 +1,9 @@
+PLACEHOLDER FILE
+
+Replace this file with your actual SUV car images:
+
+1. compact-suv.jpg (500x400 pixels)
+2. midsize-suv.jpg (500x400 pixels)
+3. fullsize-suv.jpg (500x400 pixels)
+
+These images will appear in the SUVs section of your Collections page.

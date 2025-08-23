@@ -1,0 +1,8 @@
+PLACEHOLDER FILE
+
+Replace this file with your actual luxury car images:
+
+1. luxury-suv.jpg (500x400 pixels)
+2. sports-car.jpg (500x400 pixels)
+
+These images will appear in the Luxury section of your Collections page.

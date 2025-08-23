@@ -1,0 +1,9 @@
+PLACEHOLDER FILE
+
+Replace this file with your actual hatchback car images:
+
+1. compact-hatchback.jpg (500x400 pixels)
+2. sport-hatchback.jpg (500x400 pixels)
+3. electric-hatchback.jpg (500x400 pixels)
+
+These images will appear in the Hatchbacks section of your Collections page.

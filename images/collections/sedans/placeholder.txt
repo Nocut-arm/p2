@@ -1,0 +1,10 @@
+PLACEHOLDER FILE
+
+Replace this file with your actual sedan car images:
+
+1. compact-sedan.jpg (500x400 pixels)
+2. midsize-sedan.jpg (500x400 pixels)
+3. fullsize-sedan.jpg (500x400 pixels)
+4. luxury-sedan.jpg (500x400 pixels)
+
+These images will appear in the Sedans section of your Collections page.
