@@ -19,8 +19,8 @@ images/
 ## 🖼️ **Image Requirements:**
 
 ### **About Page:**
-- **showroom.jpg**: Main showroom image (recommended: 500x500px, JPG format)
-- **logo.png**: Your business logo (optional, recommended: 200x100px, PNG format)
+- **logo.jpg**: Your business logo (recommended: 40x40px or larger, JPG format)
+- **showroom-main.jpg**: Main showroom image (recommended: 500x500px, JPG format)
 
 ### **Collections Page:**
 - **Car Images**: High-quality photos of your vehicles
@@ -38,7 +38,7 @@ images/
 ## 🔧 **Current Internet Images to Replace:**
 
 ### **About Page:**
-- `https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=500&fit=crop&crop=center` → `images/about/showroom.jpg`
+- `https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=500&fit=crop&crop=center` → `images/about/showroom-main.jpg`
 
 ### **Collections Page:**
 - All Unsplash URLs → Your local car images
